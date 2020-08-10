@@ -3,9 +3,9 @@
 **Songs**: This is a CLI (Command Line Prompt) program without any Graphical User Interface. You’ll be provided an exe. application where you can run the program. The source code can also be opened separately and its user interface depends on the IDE/Text Editor being used. A window pops up for the program to be used, and in usual cases it’s a command prompt window. 
 
 The first appearance of the program shows the **MAIN MENU**, where you’re given 3 options to choose from. The options are: 
-* *** Add a new Song.*** 
-* *** Search any Song.***
-* *** Exit the Program.***
+* ` Add a new Song.` 
+* ` Search any Song.`
+* `Exit the Program.`
 
 The user can type any of these three numbers to get respective response. As this is a generic program the user has to add the songs first. Those songs will be stored in a database if the database already exist, otherwise it will create one and then store it in an empty database.
 
