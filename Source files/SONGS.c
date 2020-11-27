@@ -7,10 +7,10 @@
 /* Main Function*/
 int main(void)
 {
-    int Q,P,R,S,T;
+    int Q,P = 0,R = 0,S = 0,T = 0;
     bool exit=false;
 Begin:
-    while(exit==false) //Infinite loop
+    while(exit) //Infinite loop
     {
         int a = main_menu(); //Calling Main Menu Function
         switch(a) // Switch Statement 1
@@ -30,7 +30,7 @@ Begin:
 
         /*CASE 2*/
         case 2:
-            while(exit==false) //Infinite loop
+            while(exit) //Infinite loop
             {
                 int c = second_menu(); //Calling the Search Menu Function
                 switch(c) // Switch Statement 2

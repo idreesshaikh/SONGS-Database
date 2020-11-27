@@ -207,7 +207,7 @@ int search_engine(int Q,char art[]){
             {
                 V = (char*)realloc(V,(Vi+1)*sizeof(char));
                 V[Vi] = '\0';
-                if(strcmp(V ,A_array) != NULL)
+                if(strcmp(A_array,V))
                 {
                     printf("\n %s \n", V);
                     Q = 1;
@@ -227,28 +227,28 @@ int search_engine(int Q,char art[]){
      ////Search Artist(s)////
 int search_artist(int Q)
 {
-    char art[]= {"Name of the Artist(s): "};
+    char art[]= {"  Artist(s): "};
     int Z = search_engine(Q , art);
     return Z;
 }
      ////Search Name of Album////
 int search_album_name(int Q)
 {
-    char art[]= {"Name of Album: "};
+    char art[]= {"  Name of the Album: "};
     int Z = search_engine(Q , art);
     return Z;
 }
      ////Search Genre////
 int search_genre(int Q)
 {
-    char art[]= {"Genre: "};
+    char art[]= {"  Genre: "};
     int Z = search_engine(Q , art);
     return Z;
 }
      ////Search Year Of Release////
 int search_release(int Q)
 {
-    char art[]= {"Year of Release: "};
+    char art[]= {"  Year of Release: "};
     int Z = search_engine(Q , art);
     return Z;
 }
