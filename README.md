@@ -1,4 +1,4 @@
-# SONG (Database)
+# SONG (a txt file Database)
 
 **Songs**: This is a CLI (Command Line Prompt) program without any Graphical User Interface. You’ll be provided an exe. application where you can run the program. The source code can also be opened separately and its user interface depends on the IDE/Text Editor being used. A window pops up for the program to be used, and in usual cases it’s a command prompt window. 
 
